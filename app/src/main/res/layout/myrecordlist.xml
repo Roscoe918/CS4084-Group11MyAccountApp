@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+    
+
+    <ImageView 
+        android:layout_width="20dp"
+        android:layout_height="80dp"
+        android:src="@drawable/shutiao"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        />
+    
+    <LinearLayout 
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:background="@drawable/mingxiborder">
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/list_date"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:gravity="center_vertical"
+                android:textSize="13sp"
+                android:textColor="#999999"
+                />
+    
+            <TextView 
+                android:id="@+id/list_qianbao"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textSize="13sp"
+                android:textColor="#999999"/>
+    
+            <TextView 
+                android:id="@+id/list_shouzhi"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="13sp"
+                android:textColor="#999999"
+                android:visibility="gone"/>
+            
+        </LinearLayout>
+        
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+                <TextView 
+                    android:id="@+id/list_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="center"
+                    android:textSize="16sp"/>
+    
+                <TextView 
+                    android:id="@+id/list_monty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#8BC34A"/>
+        </RelativeLayout>
+    
+    </LinearLayout>
+    
+</RelativeLayout>

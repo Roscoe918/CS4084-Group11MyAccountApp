@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bookkeeper</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_index">IndexActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_after_login">AfterLoginActivity</string>
+    <string name="title_activity_hello">HelloActivity</string>
+    <string name="title_activity_add_dialog">AddDialogActivity</string>
+    <string name="title_activity_dec">DecActivity</string>
+    <string name="title_activity_dec_dialog">DecDialogActivity</string>
+    <string name="title_activity_update_info">UpdateInfoActivity</string>
+    <string name="title_activity_update_pwd">UpdatePwdActivity</string>
+
+    <!-- Homepage-->
+    <string name="index_login">Login</string>
+    <string name="index_logined">Existing account,Go to login</string>
+    <string name="index_register">Register</string>
+    <string name="index_registered">No account, Go to register</string>
+
+    <!-- register -->
+    <string name="register_welcome">Welcome</string>
+    <string name="register_username">Username</string>
+    <string name="register_pwd">Password</string>
+    <string name="register_repwd">Confirm Password</string>
+    <string name="register_regbtn">Register</string>
+
+    <!-- Login -->
+    <string name="login_welcome">Welcome Login</string>
+    <string name="login_username">Username</string>
+    <string name="login_pwd">Password</string>
+    <string name="login_rememberpwd">Remember Password</string>
+    <string name="login_loginbtn">Login</string>
+
+    <!-- New Income Page-->
+    <string name="add_dialog_jine">Amount:</string>
+    <string name="add_dialog_jinehint">00.00</string>
+    <string name="add_dialog_riqi">Date:</string>
+    <string name="add_dialog_leixing">Type:</string>
+    <string name="add_dialog_qianbao">Wallet:</string>
+    <string name="add_dialog_beizhu">Postscript:</string>
+    <string name="add_dialog_queding">Ok</string>
+    <string name="add_dialog_quxiao">Cancel</string>
+
+    <!-- New expenditure page -->
+    <string name="dec_dialog_jine">Account:</string>
+    <string name="dec_dialog_jinehint">00.00</string>
+    <string name="dec_dialog_riqi">Date:</string>
+    <string name="dec_dialog_leixing">Type:</string>
+    <string name="dec_dialog_qianbao">Wallet:</string>
+    <string name="dec_dialog_beizhu">Postscript:</string>
+    <string name="dec_dialog_queding">OK</string>
+    <string name="dec_dialog_quxiao">Cancel</string>
+
+    <!-- My account page -->
+    <string name="update_info_logo">My Account</string>
+    <string name="update_info_nowuser">Current account</string>
+    <string name="update_info_gaipwd">Change Password</string>
+    <string name="update_info_btn">Log out</string>
+
+    <!-- Change password page -->
+    <string name="update_pwd_oldpwd">Old Password:</string>
+    <string name="update_pwd_newpwd">New Password:</string>
+    <string name="update_pwd_repwd">Confirm Password:</string>
+    <string name="update_pwd_queding">OK</string>
+    <string name="update_pwd_quxiao">Cancel</string>
+
+    <!-- My wallet page-->
+    <string name="myqianbao_logo">My Wallet</string>
+    <string name="myqianbao_yue">Balance</string>
+    <string name="myqianbao_xianjin">Cash</string>
+    <string name="myqianbao_xianjinyue">Cash Balance</string>
+    <string name="myqianbao_chuxuka">Debit Card</string>
+    <string name="myqianbao_chuxukayue">Debit Card Balance</string>
+    <string name="myqianbao_xinyongka">Credit Card</string>
+    <string name="myqianbao_xinyongkayue">Credit Card Balance</string>
+    <string name="myqianbao_zhifubao">PayPal</string>
+    <string name="myqianbao_zhifubaoyue">PayPal Balance</string>
+
+    <!-- Bill detail page -->
+    <string name="mingxi_logo">Bill Details</string>
+    <string name="mingxi_zongshouru">Total Income：</string>
+    <string name="mingxi_zongzhichu">Total expenditure：</string>
+    <string name="mingxi_jingshouru">Net Income：</string>
+    <string name="title_activity_today_mingxi">TodayMingxiActivity</string>
+    <string name="title_activity_week_mingxi">WeekMingxiActivity</string>
+    <string name="title_activity_month_mingxi">MonthMingxiActivity</string>
+    <string name="title_activity_year_mingxi">YearMingxiActivity</string>
+    <string name="title_activity_update_record">UpdateRecordActivity</string>
+    <string name="title_activity_show_tixing">ShowTixingActivity</string>
+
+</resources>

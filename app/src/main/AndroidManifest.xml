@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.briup.myaccountapp"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_app_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name="com.briup.controller.WelcomeActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.briup.controller.IndexActivity"
+            android:label="@string/title_activity_index"></activity>
+        <activity
+            android:name="com.briup.controller.LoginActivity"
+            android:label="@string/title_activity_login"></activity>
+        <activity
+            android:name="com.briup.controller.RegisterActivity"
+            android:label="@string/title_activity_register"></activity>
+        <activity
+            android:name="com.briup.controller.MainActivity"
+            android:label="@string/title_activity_after_login"></activity>
+        <!-- android:theme="@android:style/Theme.Dialog" -->
+        <activity
+            android:name="com.briup.controller.AddDialogActivity"
+            android:label="@string/title_activity_add_dialog"></activity>
+        <activity
+            android:name="com.briup.controller.DecDialogActivity"
+            android:label="@string/title_activity_dec_dialog"></activity>
+        <activity
+            android:name="com.briup.controller.UpdateInfoActivity"
+            android:label="@string/title_activity_update_info"></activity>
+        <activity
+            android:name="com.briup.controller.UpdatePwdActivity"
+            android:label="@string/title_activity_update_pwd"
+            android:theme="@android:style/Theme.Dialog"></activity>
+        <activity
+            android:name="com.briup.controller.TodayMingxiActivity"
+            android:label="@string/title_activity_today_mingxi"></activity>
+        <activity
+            android:name="com.briup.controller.WeekMingxiActivity"
+            android:label="@string/title_activity_week_mingxi"></activity>
+        <activity
+            android:name="com.briup.controller.MonthMingxiActivity"
+            android:label="@string/title_activity_month_mingxi"></activity>
+        <activity
+            android:name="com.briup.controller.YearMingxiActivity"
+            android:label="@string/title_activity_year_mingxi"></activity>
+        <activity
+            android:name="com.briup.controller.UpdateRecordActivity"
+            android:label="@string/title_activity_update_record"></activity>
+        <activity
+            android:name="com.briup.controller.ShowTixingActivity"
+            android:label="@string/title_activity_show_tixing"
+            android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:name="com.briup.controller.MessageListActivity" />
+
+        <receiver android:name="com.briup.controller.TixingBroadReceiver">
+            <intent-filter>
+                <action android:name="WAKEUP" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
