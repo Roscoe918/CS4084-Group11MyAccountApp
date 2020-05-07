@@ -91,7 +91,7 @@ public class MessageListActivity extends Activity {
         private int width;
 
         public ItemDivider(Context context, int resId, int d) {
-            //在这里我们传入作为Divider的Drawable对象
+
             drawable = context.getResources().getDrawable(resId);
             width = d;
         }

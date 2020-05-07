@@ -160,12 +160,11 @@ public class MingxiFragment extends Fragment implements OnClickListener {
     public void onClick(View v) {
         // TODO Auto-generated method stub
         switch (v.getId()) {
-            //左上角头像的事件监听
             case R.id.mingxitouxiang:
                 Intent intent = new Intent(getActivity(), UpdateInfoActivity.class);
                 startActivity(intent);
                 break;
-            case R.id.im_message://右上角角的事件监听
+            case R.id.im_message:
                 Intent intent0 = new Intent(getActivity(), MessageListActivity.class);
                 startActivity(intent0);
                 break;

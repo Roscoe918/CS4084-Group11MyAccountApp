@@ -78,9 +78,9 @@ public class DateUtils {
     private static boolean isThisTime(Date date, String pattern) {
         SimpleDateFormat sdf = new SimpleDateFormat(pattern);
 
-        String param = sdf.format(date);//参数时间
+        String param = sdf.format(date);
 
-        String now = sdf.format(new Date());//当前时间
+        String now = sdf.format(new Date());
 
         if (param.equals(now)) {
             return true;
@@ -93,7 +93,7 @@ public class DateUtils {
      */
     public static int getDayOfMonth(int year, int month) {
         Calendar c = Calendar.getInstance();
-        c.set(year, month, 0); //输入类型为int类型
+        c.set(year, month, 0);
         return c.get(Calendar.DAY_OF_MONTH);
     }
 
